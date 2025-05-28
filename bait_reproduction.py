@@ -1,9 +1,8 @@
 # BAIT: Full Reproduction of the Paper's Target Inversion Algorithm
-# Reference: https://arxiv.org/pdf/2402.06671
 # Repo: https://github.com/SolidShen/BAIT
 
 # --- SETUP ---
-# !pip install transformers torch numpy tqdm
+# pip install transformers torch numpy tqdm
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
